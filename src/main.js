@@ -4,8 +4,8 @@ import { getImagesByQuery } from './js/pixabay-api';
 import { createGallery, clearGallery } from './js/render-functions';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const searchForm = document.querySelector('.search-form');
-  const loadingMessage = document.querySelector('.loading-message');
+  const searchForm = document.querySelector('.form');
+  const loadingMessage = document.querySelector('.loader');
   const errorMessage = document.querySelector('.error-message');
 
   if (!searchForm) return;
