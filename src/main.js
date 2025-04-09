@@ -49,11 +49,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showLoading() {
-    if (loadingMessage) loadingMessage.classList.add('visible');
+    loadingMessage.classList.add('visible');
   }
 
   function hideLoading() {
-    if (loadingMessage) loadingMessage.classList.remove('visible');
+    loadingMessage.classList.remove('visible');
   }
 
   function showToastError(message) {
